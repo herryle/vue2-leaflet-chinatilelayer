@@ -1,0 +1,33 @@
+{
+  "name": "vue2-leaflet-chinatilelayer",
+  "version": "1.0.2",
+  "description": "A Provider for China Titlelayer Service plugin for the vue2-leaflet package.",
+  "main": "index.js",
+  "scripts": {
+    "build": "vue build Vue2LeafletChinaTilelayer.vue --prod --lib --config build.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue2",
+    "leaflet",
+    "ChineseTmsProviders"
+  ],
+  "author": "'herrylee' <'iherry.lee@gmail.com'>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herryle/vue2-leaflet-chinatilelayer"
+  },
+  "devDependencies": {
+    "vue-cli": "~2.8.2",
+    "leaflet": "^1.6.0",
+    "vue2-leaflet": "^2.4.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "leaflet.chinatmsproviders": "^3.0.2"
+  },
+  "license": "'MIT'",
+  "files": [
+    "dist"
+  ]
+}

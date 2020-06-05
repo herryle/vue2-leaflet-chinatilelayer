@@ -1,2 +1,2 @@
-# vue2-leaflet-chinatilelayer
-A Provider for China Tilelayer Service plugin for the vue2-leaflet package
+# vue2-leaflet-chinatitlelayer
+A Provider for Chinese Tms Service plugin for the vue2-leaflet package.

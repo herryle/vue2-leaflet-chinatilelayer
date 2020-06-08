@@ -35,7 +35,7 @@ export default {
     },
   },
   mounted() {
-    this.mapObject = L.tileLayer.chinaProvider(this.name, this.options)
+    this.mapObject = L.tileLayer.chinaProvider(this.layerName, this.options)
     this.ready = true
     if (this.options && this.options.interactive) {
       L.DomEvent.on(this.mapObject, this.$listeners)
@@ -66,7 +66,7 @@ export default {
     },
     updateLayer() {
       this.removeLayer()
-      this.mapObject = L.tileLayer.chinaProvider(this.name, this.options)
+      this.mapObject = L.tileLayer.chinaProvider(this.layerName, this.options)
       if (this.options && this.options.interactive) {
         L.DomEvent.on(this.mapObject, this.$listeners)
       }

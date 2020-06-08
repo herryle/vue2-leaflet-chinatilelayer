@@ -1,4 +1,4 @@
-# vue2-leaflet-chinatitlelayer
+# vue2-leaflet-chinatilelayer
 A Provider for China Tms Service plugin for the vue2-leaflet package.
 
 This is a  [chinatmsproviders plugin](https://github.com/htoooth/Leaflet.ChineseTmsProviders) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
@@ -12,13 +12,13 @@ This is a  [chinatmsproviders plugin](https://github.com/htoooth/Leaflet.Chinese
 ## Installation
 
 ```
-npm install vue2-leaflet-chinatitlelayer
+npm install vue2-leaflet-chinatilelayer
 ```
 
 or
 
 ```
-yarn add vue2-leaflet-chinatitlelayer
+yarn add vue2-leaflet-chinatilelayer
 ```
 
 ## Usage
@@ -83,10 +83,10 @@ export default {
 
 ### Props
 
-| Name      | Type     | Required | Description                                                  |
-| --------- | -------- | -------- | ------------------------------------------------------------ |
-| `layer`   | `Object` | Yes      | A Leaflet TileLayer.    See [leaflet.chinatmsproviders](https://www.npmjs.com/package/leaflet.chinatmsproviders) |
-| `options` | `Object` | No       | Options to pass to the plugin. See [leaflet.chinatmsproviders](https://www.npmjs.com/package/leaflet.chinatmsproviders) |
+| Name        | Type     | Required | Description                                                  |
+| ----------- | -------- | -------- | ------------------------------------------------------------ |
+| `layerName` | `Object` | Yes      | A Leaflet China TileLayer.    See [leaflet.chinatmsproviders](https://www.npmjs.com/package/leaflet.chinatmsproviders) |
+| `options`   | `Object` | No       | Options to pass to the plugin. See [leaflet.chinatmsproviders](https://www.npmjs.com/package/leaflet.chinatmsproviders) |
 
 ### Author
 

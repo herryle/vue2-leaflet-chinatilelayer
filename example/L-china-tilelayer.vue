@@ -1,23 +1,20 @@
 <template>
-  <l-map style="height: 350px;" :zoom="zoom" :center="center">
-    <l-china-tilelayer :name="name" :options="options" />
+  <l-map style="height: 100vh;" :zoom="zoom" :center="center">
+    <l-china-tilelayer :layerName="layerName" :options="options" />
   </l-map>
 </template>
 
 <script>
-import { latLng } from 'leaflet'
-
-import { LMap, LMarker, LIconDefault } from 'vue2-leaflet'
-import LChinaTilelayer from './td'
+import 'leaflet/dist/leaflet.css'
+import { LMap } from 'vue2-leaflet'
+import LChinaTilelayer from 'vue2-leaflet-chinatilelayer'
 
 export default {
-  components: { LMap, LChinaTilelayer, LMarker, LIconDefault },
+  components: { LMap, LChinaTilelayer },
   data() {
     return {
-      path: '/images/',
-      marker: latLng(47.41322, -1.219482),
-      zoom: 8,
-      name: 'OSM.Normal.Map',
+      zoom: 13,
+      layerName: 'TianDiTu.Normal.Map',
       options: {
         maxZoom: 18,
         minZoom: 9,

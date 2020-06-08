@@ -6,7 +6,7 @@
 
 <script>
 import L from 'leaflet'
-import 'leaflet.ChineseTmsProviders'
+import 'leaflet.chinatmsproviders'
 export default {
   name: 'Vue2LeafletChinaTilelayer',
   data() {
@@ -15,7 +15,7 @@ export default {
     }
   },
   props: {
-    name: {
+    layerName: {
       type: String,
       default: 'GaoDe.Normal.Map',
     },
@@ -27,7 +27,7 @@ export default {
     },
   },
   watch: {
-    name() {
+    layerName() {
       this.updateLayer()
     },
     options() {

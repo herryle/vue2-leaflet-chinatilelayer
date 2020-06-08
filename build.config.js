@@ -6,8 +6,8 @@ module.exports = {
       nodeExternals(),
       { leaflet: 'L' },
       {
-        'leaflet.ChineseTmsProviders': {
-          root: ['leaflet', 'ChineseTmsProviders'],
+        'leaflet.chinatmsproviders': {
+          root: ['L', 'chinatmsproviders'],
         },
       },
     ],

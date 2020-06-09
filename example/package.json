@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "'herrylee' <'herryle93@gmail.com'>",
+  "license": "'MIT'",
+  "dependencies": {
+    "vue2-leaflet-chinatilelayer": "^1.1.12"
+  }
+}

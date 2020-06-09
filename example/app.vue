@@ -8,7 +8,6 @@
 import 'leaflet/dist/leaflet.css'
 import { LMap } from 'vue2-leaflet'
 import LChinaTilelayer from 'vue2-leaflet-chinatilelayer'
-
 export default {
   components: { LMap, LChinaTilelayer },
   data() {

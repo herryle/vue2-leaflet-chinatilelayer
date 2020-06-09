@@ -3,6 +3,8 @@ A Provider for China Tms Service plugin for the vue2-leaflet package.
 
 This is a  [chinatmsproviders plugin](https://github.com/htoooth/Leaflet.ChineseTmsProviders) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
 
+## [Example](https://liheng.me/vue2-leaflet-chinatilelayer/example)
+
 ## Dependencies
 
 - [Vue2Leaflet](https://github.com/vue-leaflet/Vue2Leaflet)

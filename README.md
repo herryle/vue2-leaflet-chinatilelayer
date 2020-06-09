@@ -28,7 +28,7 @@ yarn add vue2-leaflet-chinatilelayer
 
 **Example:**
 
-```
+```vue
 <template>
   <l-map style="height: 100vh;" :zoom="zoom" :center="center">
     <l-china-tilelayer :layerName="layerName" :options="options" />

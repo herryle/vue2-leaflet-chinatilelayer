@@ -45,18 +45,48 @@ export default {
   data() {
     return {
       zoom: 13,
-      layerName: 'TianDiTu.Normal.Map',
+      layerName: 'GaoDe.Normal.Map',
       options: {
         maxZoom: 18,
         minZoom: 9,
       },
-      center: [32.03956857467441, 118.63768386683661],
+      center: [32.06031863553111, 118.76315116882326],
     }
   },
 }
 </script>
 
 ```
+
+### key
+
+If you're using TianDiTu, please [apply the key](http://lbs.tianditu.gov.cn/) and config it in the option, like this:
+
+```vue
+<script>
+import 'leaflet/dist/leaflet.css'
+import { LMap } from 'vue2-leaflet'
+import LChinaTilelayer from 'vue2-leaflet-chinatilelayer'
+
+export default {
+  components: { LMap, LChinaTilelayer },
+  data() {
+    return {
+      zoom: 13,
+      layerName: 'TianDiTu.Normal.Map',
+      options: {
+        maxZoom: 18,
+        minZoom: 9,
+        key: '***************'
+      },
+      center: [32.06031863553111, 118.76315116882326],
+    }
+  },
+}
+</script>
+```
+
+I added a key to the source code, but this key should **only** be used for testing.
 
 ### Props
 

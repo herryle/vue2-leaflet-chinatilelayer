@@ -20,7 +20,7 @@
     "url": "https://github.com/herryle/vue2-leaflet-chinatilelayer"
   },
   "devDependencies": {
-    "vue-cli": "~2.8.2",
+    "vue-cli": "~2.9.6",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
